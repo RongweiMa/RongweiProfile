@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Upper {
+    height: 760px;
+    background-color: rgb(60, 160, 160);
+    color: rgb(0, 0, 0);
+    background-image: url("image/145064.jpg");
+}
+
+.Upper ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Upper ul li {
+    float: left;
+}
+
+.Upper ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.Upper ul li a:hover {
+    background-color: rgb(111, 202, 50);
+}
+
+.Upper h5 {
+    margin-top: 200px;
+    margin-left: 250px;
+    /* text-align: center; */
+    font-size: 40px;
+    font-family: Lobster;
+    color: black;
+}
+
+#details {
+    height: 150px;
+    background-color: #abc9a3;
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+    font-size: 17px;
+}
+
+#details p {
+    padding-top: 20px;
+}
+
+
+/* .sections {
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+ */
+
+.row {
+    margin-left: 300px;
+    padding: 20px;
+}
+
+.column img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.column img:hover {
+    top: -15px;
+}
+
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 250px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.column h2 {
+    padding-top: 30px;
+}
+
+.column p {
+    padding: 10px;
+    text-align: justify;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(62, 90, 50);
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
